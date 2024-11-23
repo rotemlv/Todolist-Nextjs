@@ -37,3 +37,5 @@ next-env.d.ts
 old_code_ignore.txt
 /.git
 /.next
+.gitignore
+.firebaserc

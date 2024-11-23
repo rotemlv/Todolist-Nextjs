@@ -1,5 +1,5 @@
-// trying to set up the fucking environment shit
-import { loadEnvConfig } from '@next/env'  // wait for the piece of shit to install
+// these 3 lines allow me to use env vars here instead of exposing em
+import { loadEnvConfig } from '@next/env' 
 const projectDir = process.cwd()
 loadEnvConfig(projectDir)
 
